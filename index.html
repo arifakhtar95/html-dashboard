@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesman</title>
+   <!-- Font Awesome-->
+   <!-- <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+   <!-- Costum Css -->
+    <link rel="stylesheet" href="./Css/style.css"/>
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="./Css/responsive.css"/>   
+    
+</head>
+<body>
+  <div class="container">
+    <div class="side-menu">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img src="./Images/logo.png" alt="">            
+            <a href="#">Dashboard</a>
+            <a href="#">Assessment</a>
+            <a href="#">Training</a>
+            <a href="#">Practice</a>
+            <a href="#">Questions</a>
+            <a href="#">Extras</a>
+        </div>
+        <span class="icon" onclick="openNav()">&#9776;</span>  
+    </div>
+    <div class="header">
+        <div class="search-box">
+            <input type="search" placeholder="search"/>
+        </div>
+
+        <div class="mi-account">
+            <div class="dropdown">
+                <span class="mi-circle">MI</span> <span class="span">Account</span> <span></span>
+                <div class="dropdown-content">
+                    <span></span> <a href="#">myaccount@1</a> 
+                    <span></span> <a href="#">myaccount@2</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="dashboard-h2">Dashboard</h2>
+
+    <div class="dashboard-row" style="justify-content: center;">        
+        <div class="dashboard-column">
+           <div class="dashboard-inner-content">
+            <h3>MIT Completed</h3>
+            <p>12</p>
+           </div>            
+        </div> 
+        <div class="dashboard-column">
+            <div class="dashboard-inner-content">
+             <h3>   Today Calls</h3>
+             <p>0</p>
+            </div>            
+         </div> 
+         <div class="dashboard-column">
+            <div class="dashboard-inner-content">
+             <h3> Sent Emails</h3>
+             <p>7</p>
+            </div>            
+         </div> 
+         <div class="dashboard-column">
+            <div class="dashboard-inner-content">
+             <h3> Days Tracked</h3>
+             <p>1</p>
+            </div>            
+         </div>     
+    </div>
+    <div class="market ">
+        <div class="market-grap-section" >
+
+            <div class="row">
+                <div class="column-60">
+                    <div class="skil-content">
+                        <h3> Salesskill Score </h3>
+                        <img src="./Images/graph.png" alt=""/>
+                    </div>
+    
+                   <div class="row" style="justify-content: center;">
+                    <div class="column-50">
+                        <div class="revenue-content">
+                            <h4> Revenue </h4> 
+                            <select name="Days" id="day">
+                                <option value="last30day"> Last 30 Days </option>
+                                <option value="last15day"> Last 15 Days </option>
+                                <option value="last10day"> Last 10 Days </option>
+                                <option value="last5day"> Last 5 Days </option>
+                                <option value="today"> Today </option>
+                            </select>
+                            <img src="./Images/graph.png" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="column-50">
+                        <div class="revenue-content">
+                            <h4> Compare And Contrast </h4> 
+                            <select class="left" name="Days" id="day">
+                                <option value="last30day"> Important Task </option>
+                                <option value="last15day"> Important Task </option>
+                                <option value="last10day"> Important Task </option>
+                            </select>
+
+                            <select class="right" name="Days" id="day">
+                                <option value="last30day"> Mood </option>
+                                <option value="last15day"> Mood 1 </option>
+                                <option value="last10day"> Mood 2 </option>
+                            </select>
+
+                            <img src="./Images/graph.png" alt="">
+                        </div>
+                    </div>
+                   </div>
+
+                   <div class="row" style="justify-content: center;">
+                    <div class="column-25">
+                        <div class="sale-content">
+                            <h5> SalesCode Results </h5>
+                            <img src="./Images/sale-column-1.png" alt=""/>
+                            <a href="">Retake salesCod</a>
+                        </div>
+                    </div>
+                    <div class="column-25">
+                        <div class="sale-content">
+                            <h5> Training Completed </h5>
+                            <img src="./Images/sale-column-2.png" alt=""/>
+                            <a href="">Start Training</a>
+                        </div>
+                    </div>
+                    <div class="column-25">
+                        <div class="sale-content">
+                            <h5>SalesCoach memorised </h5>
+                            <img src="./Images/sale-column-3.png" alt=""/>
+                            <a href="">Start salesCoach</a>
+                        </div>
+                    </div>
+                   </div>
+    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="market-comment-section">
+            <div class="row">
+                <div class="column-60">
+                    <div class="comment-content">
+                        <h3> Personalised Training Plan</h3> <button class="update-btn">View All</button>
+                        <img class="comment-content-img" src="./Images/video_img1.png" alt="">
+                        <p>Personal Accountability</p>
+                        <p>Video 1</p>
+                    </div>
+                    <div class="comment-content">
+                        <h3>News / Update</h3> <button class="update-btn">View All</button>
+                        <div class="card">
+                           <div class="card-img">
+                            <img src="./Images/news_thumb.png" alt=""/>
+                           </div>
+                            <div class="write-section">
+                                <p> access_time 07/05/20</p>
+                                <p>I’ve some exciting news… we’ve just released the brand new Systematic Selling training! It’s bigger and better than ever with 90% all new content.</p>
+                                <p>Click on your training plan to see the new training and start working through it.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                             <img src="./Images/news_thumb.png" alt=""/>
+                            </div>
+                                <div class="write-section">
+                                 <p> access_time 07/05/20</p>
+                                 <p>I’ve some exciting news… we’ve just released the brand new Systematic Selling training! It’s bigger and better than ever with 90% all new content.</p>
+                                </div>
+                         </div>
+                         <div class="card">
+                            <div class="card-img">
+                             <img src="./Images/news_thumb.png" alt=""/>
+                            </div>
+                             <div class="write-section">
+                                 <p> access_time 07/05/20</p>
+                                 <p>i've some exciting news… we’ve just released the brand new Systematic Selling training! It’s bigger and better than ever with 90% all new content.</p>
+                             </div>
+                         </div>
+                         <div class="card">
+                            <div class="card-img">
+                             <img src="./Images/news_thumb.png" alt=""/>
+                            </div>
+                             <div class="write-section">
+                                 <p> access_time 07/05/20</p>
+                                <p>I’ve some exciting news… we’ve just released the brand new Systematic Selling training! It’s bigger and better than ever with 90% all new content.</p>
+                             </div>
+                         </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+
+    </div>
+
+
+
+    
+
+
+    
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "254px";
+    document.getElementById("header").style.marginLeft = "0";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+@media only screen and (max-width: 1200px) and (min-width: 800px)  {    
+
+.sidenav{
+    padding-left: 0;
+    width: 254px;
+}
+.sidenav img{
+    padding-left: 15px;
+}
+
+.header{
+    margin-right: 0;
+}
+        
+.search-box{
+    width: 50%;
+}
+.mi-account{
+    width: 50%;
+}
+    
+
+.dashboard-column{
+    width: 44% ;
+}
+
+.market{
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.market-grap-section{
+    width: 100%;
+}
+
+.market-comment-section{
+    width: 99%;
+    margin-right: 0;
+}
+
+.card-img{
+    width: 25%;
+    height: 100px;
+}
+
+.column-50{
+    width: 47%;
+}
+.column-25{
+    width: 31.5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.sidenav{
+    width: 0;
+    padding-left: 0;    
+}
+.sidenav img{
+    padding-left: 15px;
+}
+.sidenav .closebtn {
+display: block;
+}
+.icon{
+    margin-left: 25px;
+    display: block;
+}
+ 
+.header{
+    width: 100%;
+    margin-left: 0;
+}
+
+.search-box{
+    width: 50%;
+}
+.search-box input{
+    width: 100%;
+}
+.mi-account{
+    width: 50%;
+}
+    
+.dashboard-row{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: start;
+}
+
+.dashboard-column{
+    width: 45%;
+}
+
+.dashboard-h2{
+    font-weight: 300;
+    font-size: 45px;
+    color: #212945;   
+    margin: 20px auto;
+}
+
+
+.market{
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+}
+
+.market-grap-section{
+    width: 100%;
+}
+
+.column-50{
+    width: 47%;
+}
+.column-25{
+    width: 31.5%;
+}
+
+.market-comment-section{
+    width: 99%;
+}
+
+.card-img{
+    margin-right: 15px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+
+
+.sidenav{
+width: 0;
+padding-left: 0;    
+z-index: 9999;
+}
+.sidenav img{
+padding-left: 15px;
+}
+.sidenav .closebtn {
+display: block;
+}
+.icon{
+margin-left: 25px;
+display: block;
+z-index: 9999;
+}
+
+.header{
+width: 100%;
+margin-left: 0;
+}
+
+.search-box{
+    margin-top: 50px;
+width: 100%;
+}
+.search-box input{
+width: 100%;
+}
+.mi-account{
+width: 80%; 
+margin-left: 55px;
+/* float: right; */
+margin-bottom: 50px;
+margin-top: -200px;
+
+
+}
+
+.dashboard-row{
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+justify-content: center;
+}
+
+.dashboard-column{
+width: 90%;
+}
+
+.dashboard-h2{
+font-weight: 300;
+font-size: 30px;
+color: #212945;   
+margin: 20px auto;
+}
+
+.column-50{
+    width: 100%;
+}
+.column-25{
+    width: 100%;
+}
+.column-25:nth-child(2){
+    margin: 15px 10px;
+}
+
+
+.market{
+flex-direction: column;
+margin-left: 0;
+width: 100%;
+}
+
+.market-grap-section{
+width: 100%;
+}
+
+.market-comment-section{
+width: 100%;
+
+}
+
+.card-img{
+margin-right: 15px;
+}
+.comment-content p{
+    font-size: 15px;
+}
+
+.comment-content h3{
+    font-size: 18px;
+    
+ }
+
+
+    
+}
+
+
+
+
+/* 
+
+@media only screen and (max-width: 479px) and (min-width: 320px)  {
+ 
+    
+} */
